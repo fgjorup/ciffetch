@@ -684,11 +684,15 @@ class CifFetchDialog(QDialog):
         self.open()
  
     
-if __name__ == "__main__":
+def main():
     app = QApplication(sys.argv)
     dialog = CifFetchDialog()
     dialog.fetch_cifs()
-    sys.exit(app.exec())
+    return app.exec()
+
+
+if __name__ == "__main__":
+    sys.exit(main())
 
 
 ### Notes for developers (and llm's) ###
