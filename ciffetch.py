@@ -13,6 +13,7 @@ standard browsing, or `fetch_single_cif()` to auto-close after a single
 file is saved. Emits `sigFileFetched(path, cif_content)` when a CIF is
 successfully fetched, and `accepted()` in single-file mode.
 
+################################################################################
 
 Made possible by the people behind Crystallograhy Open Database (COD)
 https://www.crystallography.net/cod/
@@ -21,7 +22,24 @@ All data in the COD and the database itself are dedicated to the public domain
 and licensed under the CC0 License . Users of the data should acknowledge the 
 original authors of the structural data.
 
-F.H. Gjørup 2026
+################################################################################
+
+
+Copyright (C) 2026 F.H. Gjørup
+
+This program is free software: you can redistribute it and/or modify
+it under the terms of the GNU General Public License as published by
+the Free Software Foundation, version 3 only.
+
+This program is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the
+GNU General Public License for more details.
+
+You should have received a copy of the GNU General Public License
+along with this program. If not, see <https://www.gnu.org/licenses/>.
+
+F.H. Gjørup
 Aarhus University, Denmark
 MAX IV Laboratory, Lund University, Sweden
 https://github.com/fgjorup
